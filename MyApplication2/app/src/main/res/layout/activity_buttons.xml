@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0D3E1"
+    android:gravity="center">
+
+    <!-- 聊天按钮 -->
+
+    <!-- 更新邮件按钮 -->
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="423dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/scheduleManagementButton"
+        app:layout_constraintStart_toStartOf="@+id/healthTipsButton"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:srcCompat="@drawable/text_image"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="394dp"
+        android:layout_height="61dp"
+        android:text="返回"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scheduleManagementButton"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="162dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="192dp"
+        android:text="聊天"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="144dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="28dp"
+        android:text="更新邮件"
+        app:layout_constraintBottom_toBottomOf="@+id/chatButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/chatButton"
+        app:layout_constraintTop_toTopOf="@+id/chatButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- 天气服务按钮 -->
+
+    <!-- 待开发按钮 -->
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="162dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="40dp"
+        android:text="天气服务"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="149dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="36dp"
+        android:text="待开发"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <!-- 新增的健康小贴士按钮 -->
+    <Button
+        android:id="@+id/healthTipsButton"
+        android:layout_width="162dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="36dp"
+        android:text="健康小贴士"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <!-- 新增的日程管理按钮 -->
+    <Button
+        android:id="@+id/scheduleManagementButton"
+        android:layout_width="149dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="36dp"
+        android:text="日程管理"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <!-- 图像视图 -->
+
+    <!-- 功能界面标题 -->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="393dp"
+        android:layout_height="163dp"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/chatButton"
+        app:srcCompat="@drawable/login1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-68dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="386dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="功能界面"
+        android:textSize="60px"
+        app:layout_constraintBottom_toTopOf="@+id/chatButton"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="@+id/chatButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

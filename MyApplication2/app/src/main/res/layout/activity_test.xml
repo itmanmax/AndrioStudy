@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6EBAD8"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/buttonToRegisterActivity"
+        android:layout_width="370dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        android:text="注册"
+        app:layout_constraintEnd_toEndOf="@+id/buttonTest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTest" />
+
+    <Button
+        android:id="@+id/buttonTest"
+        android:layout_width="389dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="92dp"
+        android:text="登录"
+        app:layout_constraintBottom_toTopOf="@+id/buttonToRegisterActivity"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/text_image" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="337dp"
+        android:layout_height="88dp"
+        android:text="忘记账号或者密码联系max"
+        android:textColor="#EF3F07"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/buttonToRegisterActivity"
+        app:layout_constraintStart_toStartOf="@+id/buttonToRegisterActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

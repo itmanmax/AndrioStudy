@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">picture</string>
+
+        <string name="image_description">Loaded image from the web</string>
+
+
+</resources>

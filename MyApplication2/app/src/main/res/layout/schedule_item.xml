@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scheduleItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地点"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事情"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnChangeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更改状态(绿色是完成，黄色是待办)" />
+
+    <Button
+        android:id="@+id/btnDeleteItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除" />
+
+
+</LinearLayout>
